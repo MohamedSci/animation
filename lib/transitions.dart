@@ -1,9 +1,12 @@
+import 'package:anim/animated_widgets.dart';
+import 'package:anim/transform.dart';
 import 'package:flutter/material.dart';
 
 void main() {
   runApp(
     const MaterialApp(
-      home: Page1(),
+      debugShowCheckedModeBanner: false,
+      home: AnimatedWidgets(),
     ),
   );
 }
